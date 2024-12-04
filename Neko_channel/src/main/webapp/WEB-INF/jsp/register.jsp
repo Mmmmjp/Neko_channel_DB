@@ -22,7 +22,7 @@
 
 <h2 class="english-title">🐾Register Your Account🐾</h2>
 
-<main>
+<main class="bg-image">
     <div class="main-content align-center">
         <!-- エラーメッセージの表示 -->
         <c:if test="${not empty errorMsg}">

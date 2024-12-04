@@ -1,4 +1,4 @@
-@charset "ISO-8859-1";
+@charset "UTF-8";
 
 /* 共通部分 ================== */
 
@@ -88,12 +88,17 @@ header h1 {
     text-shadow: 1px 1px 2px #6B4226;
 }
 
+
+
 main {
-    background-image: url('../images/main-background1.jpg'); 
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat; 
     min-height: calc(100vh - 160px);
+}
+
+main.bg-image{
+    background-image: url('../images/main-background1.jpg'); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -477,4 +482,3 @@ input[type="button"]:hover {
     cursor: not-allowed;
     box-shadow: none;
 }
-

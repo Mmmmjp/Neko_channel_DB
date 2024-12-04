@@ -18,7 +18,7 @@
 
 <!-- Headerのインクルード -->
 <jsp:include page="/WEB-INF/jsp/includes/header.jsp" />
-<main>
+<main class="bg-image">
     <div class="main-content">
         <h2 class="english-title">🐾Welcome to Neko channel🐾</h2>
 
