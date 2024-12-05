@@ -35,7 +35,6 @@
         <input type="submit" value="にゃ～">
     </form>
 </div>
-</main>
 
 <c:if test="${not empty errorMsg}">
     <p style="color: red;"><c:out value="${errorMsg}" /></p>
@@ -59,6 +58,7 @@
         </div>
     </c:forEach>
 </div>
+</main>
 
 <!-- フッターのインクルード -->
 <jsp:include page="/WEB-INF/jsp/includes/footer.jsp" />
