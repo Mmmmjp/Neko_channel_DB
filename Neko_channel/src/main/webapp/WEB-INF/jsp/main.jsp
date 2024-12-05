@@ -20,6 +20,7 @@
 <!-- Headerのインクルード -->
 <jsp:include page="/WEB-INF/jsp/includes/header.jsp" />
 
+<main>
 <h2 class="english-title">🐾The Meow Spot🐾</h2>
 
 <div class="align-center">
@@ -34,7 +35,6 @@
         <input type="submit" value="にゃ～">
     </form>
 </div>
-
 
 <c:if test="${not empty errorMsg}">
     <p style="color: red;"><c:out value="${errorMsg}" /></p>
@@ -58,6 +58,7 @@
         </div>
     </c:forEach>
 </div>
+</main>
 
 <!-- フッターのインクルード -->
 <jsp:include page="/WEB-INF/jsp/includes/footer.jsp" />

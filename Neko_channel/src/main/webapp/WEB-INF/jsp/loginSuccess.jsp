@@ -19,7 +19,7 @@
 <!-- Headerのインクルード -->
 <jsp:include page="/WEB-INF/jsp/includes/header.jsp" />
 
-<main>
+<main class="bg-image">
     <div class="main-content align-center">
         <h2 class="english-title">🐾Welcome Back <c:out value="${sessionScope.loginUser.userId}" />🐾</h2>
 
